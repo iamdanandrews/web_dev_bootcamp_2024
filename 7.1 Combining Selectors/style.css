@@ -1,0 +1,27 @@
+/* Group */
+ h1, h2 {
+    color: blueviolet;
+ }
+
+ /* child */
+
+ .box > p {
+    color: firebrick;
+ }
+
+ /* decendent */
+ .box li {
+    color: blue;
+ }
+
+ /* chaining (applies where ALL are true) */
+
+ li.done {
+    color: seagreen;
+ }
+
+ /* combining combiners (ancestor + combo) using decendent here as its a bit broader */
+
+ ul p.done {
+    font-size: 0.5rem;
+ }
